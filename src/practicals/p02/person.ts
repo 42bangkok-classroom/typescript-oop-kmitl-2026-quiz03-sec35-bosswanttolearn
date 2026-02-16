@@ -4,12 +4,12 @@ export class Person {
     lastname: string = ''
 
     private age: number = 0
-    static country: string = 'Thailand '
+    static COUNTRY: string = 'Thailand '
 
-    set(age : number): void {
+    setAge(age : number): void {
         this.age = age
     }
-    get age(): number {
+    getAge(): number {
         return this.age
     }
     getFullName(): string {
