@@ -1,9 +1,9 @@
 export class Student {
 
-    firstname: string
-    lastname: string
+    firstname: string = ''
+    lastname: string = ''
     
-    printName() {
+    printName(): void {
         console.log( `${this.firstname} ${this.lastname}` )
     }
 }
